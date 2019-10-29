@@ -15,3 +15,6 @@ app.use(express.urlencoded());
 app.listen(8000, () => {
   console.log('Node.js listening on port ' + 8000)
 });
+
+//exporting for testing!
+module.exports = app;
